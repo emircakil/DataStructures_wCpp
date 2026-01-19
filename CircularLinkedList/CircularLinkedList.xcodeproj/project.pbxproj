@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		961048532F1E18650051848B /* CircularLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CircularLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		961048532F1E18650051848B /* CircularLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = CircularLinkedList; path = /Users/katana/Desktop/DataStructures_wCpp/CircularLinkedList/build/Debug/CircularLinkedList; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				961048552F1E18650051848B /* CircularLinkedList */,
-				961048542F1E18650051848B /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		961048542F1E18650051848B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				961048532F1E18650051848B /* CircularLinkedList */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +84,7 @@
 				TargetAttributes = {
 					961048522F1E18650051848B = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -106,7 +98,7 @@
 			mainGroup = 9610484A2F1E18650051848B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 961048542F1E18650051848B /* Products */;
+			productRefGroup = 9610484A2F1E18650051848B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -244,16 +236,21 @@
 		9610485B2F1E18650051848B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		9610485C2F1E18650051848B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
